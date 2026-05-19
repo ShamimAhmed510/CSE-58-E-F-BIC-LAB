@@ -1,4 +1,3 @@
-name= "Shamim"
-age = 18 
-greetin = f"My name is {name} and i am {age} years old"
-print(greetin)
+movie_title = "inception"
+release_year = 2010;
+print(f"The Movie {movie_title} was released in {release_year}")
