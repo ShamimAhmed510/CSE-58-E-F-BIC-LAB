@@ -1,4 +1,10 @@
-p = input().strip()
-g = input().strip()
+s = input().strip()
 
-print(*[i for i in range(len(g)-len(p)+1) if g[i:i+len(p)] == p])
+comp = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
+
+ans = []
+
+for ch in reversed(s):
+    ans.append(comp[ch])
+
+print("".join(ans))
